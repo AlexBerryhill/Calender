@@ -1,0 +1,15 @@
+bool isMonth(int month)
+{
+   bool isMonth;
+
+   if (month <= 12 && month > 0)
+   {
+      isMonth = true;
+   }
+   else
+   {
+      isMonth = false;
+   }
+
+   return isMonth;
+}
