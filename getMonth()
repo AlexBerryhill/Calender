@@ -1,0 +1,12 @@
+int getMonth()
+{
+   int month = promptMonth();
+   bool isAMonth = isMonth(month);
+   while (!isAMonth)
+      {
+         cout << "Month must be beteen 1 and 12.\n";
+         month = promptMonth();
+         isAMonth = isMonth(month);
+      }
+   return month;
+}
