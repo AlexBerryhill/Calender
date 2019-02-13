@@ -1,0 +1,9 @@
+int promptMonth()
+{
+   int month;
+
+   cout << "Enter a month number: ";
+   cin >> month;
+
+   return month;
+}
